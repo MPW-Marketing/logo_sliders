@@ -1,7 +1,6 @@
 <?php
 function setup_slider_types () {
 	create_slider_type();
-	create_text_slider_type();
 }
 
 function create_slider_type() {
