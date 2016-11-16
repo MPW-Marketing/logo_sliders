@@ -9,7 +9,6 @@ Text Domain: logo_slider
 
 include( plugin_dir_path( __FILE__ ) . 'logo_slider_post_types.php' );
 add_action( 'init', 'setup_slider_types' );
-add_action( 'init', 'create_text_slider_type' );
 /*flush rewrites on activation */
 function slider_rewrite_flush() {
 
